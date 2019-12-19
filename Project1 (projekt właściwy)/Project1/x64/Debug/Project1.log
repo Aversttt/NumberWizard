@@ -1,2 +1,4 @@
-﻿  main.cpp
-  Project1.vcxproj -> C:\Users\ritts\Desktop\scdsda\Project1 (projekt właściwy)\x64\Debug\Project1.exe
+﻿  FBullCowGame.cpp
+  main.cpp
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\main.cpp(2): fatal error C1083: Nie można otworzyć pliku dołącz: 'std::string': No such file or directory
+  Generowanie kodu...
