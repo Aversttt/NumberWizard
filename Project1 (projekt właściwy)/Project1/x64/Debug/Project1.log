@@ -1,76 +1,24 @@
 ﻿  FBullCowGame.cpp
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.h(33): error C2059: błąd składniowy: „=”
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.h(33): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(16): error C2127: „HIDDEN_WORD”: niedozwolone inicjowanie elementu „constexpr” wyrażeniem innym niż stała
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: wystąpił błąd, ponieważ typ „FString” nie jest typem literału
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2458): note: typ „std::basic_string<char,std::char_traits<char>,std::allocator<char>>” nie jest typem literału, ponieważ ma destruktor zdefiniowany przez użytkownika
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: typ „std::basic_string<char,std::char_traits<char>,std::allocator<char>>” nie jest literałem, ponieważ nie jest typem agregowanym, typem zamkniętym lub nie ma konstruktora constexpr, który nie jest konstruktorem kopiowania lub przenoszenia
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2065): note: typ „std::basic_string<char,std::char_traits<char>,std::allocator<char>>” nie jest typem literału, ponieważ jego bezpośrednia klasa bazowa „_String_alloc<std::_String_base_types<_Elem,_Alloc>>” nie jest typem literału
-          with
-          [
-              _Elem=char,
-              _Alloc=std::allocator<char>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(1947): note: typ „std::_String_alloc<std::_String_base_types<_Elem,_Alloc>>” nie jest typem literału, ponieważ ma destruktor zdefiniowany przez użytkownika
-          with
-          [
-              _Elem=char,
-              _Alloc=std::allocator<char>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2065): note: typ „std::_String_alloc<std::_String_base_types<_Elem,_Alloc>>” nie jest literałem, ponieważ nie jest typem agregowanym, typem zamkniętym lub nie ma konstruktora constexpr, który nie jest konstruktorem kopiowania lub przenoszenia
-          with
-          [
-              _Elem=char,
-              _Alloc=std::allocator<char>
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(2052): note: typ „std::_String_alloc<std::_String_base_types<_Elem,_Alloc>>” nie jest typem literału, ponieważ typ jego składowej danych „_Mypair” („std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Ty>>,true>”) nie jest typem literału
-          with
-          [
-              _Elem=char,
-              _Alloc=std::allocator<char>
-          ]
-          and
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(269): note: typ „std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<_Ty>>,true>” nie jest typem literału, ponieważ typ jego składowej danych „_Myval2” („std::_String_val<std::_Simple_types<_Ty>>”) nie jest typem literału
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(1883): note: typ „std::_String_val<std::_Simple_types<_Ty>>” nie jest literałem, ponieważ nie jest typem agregowanym, typem zamkniętym lub nie ma konstruktora constexpr, który nie jest konstruktorem kopiowania lub przenoszenia
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(1867): note: typ „std::_String_val<std::_Simple_types<_Ty>>” nie jest typem literału, ponieważ typ jego składowej danych „_Bx” („std::_String_val<std::_Simple_types<_Ty>>::_Bxty”) nie jest typem literału
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(1860): note: typ „std::_String_val<std::_Simple_types<_Ty>>::_Bxty” nie jest typem literału, ponieważ ma destruktor zdefiniowany przez użytkownika
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(1855): note: typ „std::_String_val<std::_Simple_types<_Ty>>::_Bxty” nie jest literałem, ponieważ nie jest typem agregowanym, typem zamkniętym lub nie ma konstruktora constexpr, który nie jest konstruktorem kopiowania lub przenoszenia
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(249): note: typ „std::_String_val<std::_Simple_types<_Ty>>” nie jest typem literału, ponieważ jego bezpośrednia klasa bazowa „_Container_base12” nie jest typem literału
-          with
-          [
-              _Ty=char
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(76): note: typ „std::_Container_base12” nie jest literałem, ponieważ nie jest typem agregowanym, typem zamkniętym lub nie ma konstruktora constexpr, który nie jest konstruktorem kopiowania lub przenoszenia
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(17): error C2065: "MyHiddenWord": niezadeklarowany identyfikator
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(41): error C2065: "MyHiddenWord": niezadeklarowany identyfikator
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(45): error C2065: "Guess": niezadeklarowany identyfikator
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(45): error C2065: "MyHiddenWord": niezadeklarowany identyfikator
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(51): error C2181: niedozwolony else bez instrukcji if
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(12): warning C4267: "return": konwersja z "size_t" do "int32", możliwa utrata danych
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(15): error C2761: „int32 FBullCowGame::GetMaxTries(void) const”: Ponowna deklaracja składowej nie jest dozwolona
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(16): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(22): error C2761: „void FBullCowGame::Reset(void)”: Ponowna deklaracja składowej nie jest dozwolona
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(22): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(44): error C2039: „Length”: Nie jest składową „std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: zobacz deklarację „std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(56): warning C4267: "inicjowanie": konwersja z "size_t" do "int32", możliwa utrata danych
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(63): error C2181: niedozwolony else bez instrukcji if
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(60): warning C4390: ";": znaleziono kontrolowaną pustą instrukcję; czy to było zamierzone?
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(80): error C2065: "Word": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(84): error C2065: "Word": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(84): error C3312: nie znaleziono wywoływalnej funkcji "begin" dla typu "unknown-type"
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(84): error C3312: nie znaleziono wywoływalnej funkcji "end" dla typu "unknown-type"
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(85): error C2065: "Letter": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(86): error C2065: "Letter": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(91): error C2065: "Letter": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(98): error C2601: "FBullCowGame::IsLowercase": definicje funkcji lokalnych są niedozwolone
+  c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(79): note: ten wiersz zawiera znak „{”, który nie został jeszcze dopasowany
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.cpp(79): fatal error C1075: „{”: nie znaleziono zgodnego tokenu
   main.cpp
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.h(33): error C2059: błąd składniowy: „=”
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\fbullcowgame.h(33): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
-c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\main.cpp(93): error C2065: "Resoponse": niezadeklarowany identyfikator
+c:\users\ritts\desktop\scdsda\project1 (projekt właściwy)\project1\main.cpp(119): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
   Generowanie kodu...
